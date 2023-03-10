@@ -31,4 +31,4 @@
 ## Part 5
 
 - If we add a <Route> where `path="*"` at the bottom of our routes in App.jsx that equals nothing found
-- Create a page component called 404.jsx and if no routes match render that page
+- Create a page component called 404.jsx and if no routes match render that page.
