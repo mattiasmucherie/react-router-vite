@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./styles.css";
 
 export const Header = () => {
@@ -7,7 +7,9 @@ export const Header = () => {
       <nav>
         <ul className="NavigationList">
           <li className="NavigationListItem">
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/faqs">FAQ</NavLink>
           </li>
         </ul>
       </nav>

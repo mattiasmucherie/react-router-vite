@@ -14,15 +14,15 @@
   - `/faqs/faq1`, `/faqs/faq2`, `/faqs/faq3`
 - Include it in `<App>` with the path="/faqs"
 - Add a link for it in Header.jsx for "/faqs"
-- Add three other <Route>s for faq1, faq2, faq3 that renders a <p>faq1</p>, <p>faq2</p>, <p>faq3</p> in App.jsx
+- Add three other `<Route>`s for faq1, faq2, faq3 that renders a `<p>faq1</p>`, `<p>faq2</p>`, `<p>faq3</p>` in `App.jsx`
 
 > Hint: Use outlet to be able to see the faq1, faq2, faq3
 
-## Part 4
+## Part 3
 
 - Can we render out sub `<Route>`s for faq1, faq2, faq3 by mapping an array of objects?
 
-## Part 5
+## Part 4
 
 - In our Header.jsx, replace the `<Link/>` with `<NavLink/>`. Inspect the DOM and add some css to show that we are on a specific page.
 
